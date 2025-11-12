@@ -1,0 +1,18 @@
+Create a complete CRUD module for gamefication_points by analyzing the backend Laravel model and migration, and following the FRONTEND_CRUD_PATTERN.md at C:\kids\FRONTEND_CRUD_PATTERN.md.
+
+  Resource: GameficationPoint
+  prolar: gamefication_points
+  Icon: anything related to gamefication_point
+  Required Role:
+
+  Steps:
+  1. Read and understand the pattern from C:\kids\FRONTEND_CRUD_PATTERN.md
+  2. Find and read the Laravel model at C:\kids\kids-play-api\app\Models\[Resource].php
+  3. Find and read the migration file for [prolar] table in C:\kids\kids-play-api\database\migrations\
+  4. Analyze all fillable fields, relationships, and validation rules
+  5. Determine appropriate form field types based on column types
+  6. Create index page at src/pages/[prolar]/index.vue following the exact pattern from FRONTEND_CRUD_PATTERN.md Section 1
+  7. Create form dialog at src/components/[prolar]/[Resource]sFormDialog.vue following the exact pattern from FRONTEND_CRUD_PATTERN.md Section 2
+  8. Add navigation entry to src/navigation/vertical/index.js following FRONTEND_CRUD_PATTERN.md Section 3
+  9. Use all the exact code patterns, imports, state management, and methods from the .md file
+  10. if there is any relation like permission model has module_id then give the drop down in form and call the module api for master and show in dropdown
